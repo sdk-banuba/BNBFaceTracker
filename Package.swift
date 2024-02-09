@@ -1,7 +1,7 @@
 // swift-tools-version:5.3
 import PackageDescription
 
-let bnbPackageVersion: Version = "1.10.1-73-g8d138045c3"
+let bnbPackageVersion: Version = "1.11.0"
 
 let package = Package(
     name: "BNBFaceTracker",
@@ -36,8 +36,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "BNBFaceTracker",
-            url: "https://d2cm7wtcqqw29.cloudfront.net/1.10.1-73-g8d138045c3/BNBFaceTracker.zip",
-            checksum: "05a50a20b65969023d949705575713ef21668060cebb9ef258201f529e924dea"
+            url: "https://d2cm7wtcqqw29.cloudfront.net/1.11.0/BNBFaceTracker.zip",
+            checksum: "2c9038498be87da2ba4d362bbc5b60a29015dbab622e616f57114bc03a13d261"
         ),
         .target(
             name: "BNBFaceTracker_BNBSdkCore",
